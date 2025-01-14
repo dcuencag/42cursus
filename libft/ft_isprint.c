@@ -5,9 +5,8 @@ int	ft_isprint(unsigned char c)
 	else
 		return (0);
 }
-
+/* 
 #include <stdio.h>
-
 int	main(int ac, char **av)
 {
 	if (ac == 2)
@@ -15,4 +14,4 @@ int	main(int ac, char **av)
 		printf("%d\n", ft_isprint(av[1][0]));
 	}
 	return (0);
-}
+} */
