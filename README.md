@@ -10,7 +10,7 @@ Este repositorio contiene los proyectos realizados durante mi experiencia en el 
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/42cursus.git
+   git clone git@github.com:dcuencag/42cursus.git
    ```
 2. Navega a la carpeta del proyecto que deseas explorar.
 3. Sigue las instrucciones específicas de cada proyecto en su archivo README correspondiente.
