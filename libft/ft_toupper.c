@@ -1,23 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dancuenc <dancuenc@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/14 21:41:15 by dancuenc          #+#    #+#             */
-/*   Updated: 2025/01/14 21:41:16 by dancuenc         ###   ########.fr       */
+/*   Created: 2025/01/14 21:41:20 by dancuenc          #+#    #+#             */
+/*   Updated: 2025/01/14 21:41:21 by dancuenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	ft_strlen(char *str)
+unsigned char	ft_toupper(unsigned char c)
 {
-	int	i;
+	if (c >= 'a' && c <= 'z')
+		c = c - 32;
+	return (c);
+}
 
-	i = 0;
-	while (str[i + 1] != '\0')
-	{
-		i++;
-	}
-	return (i);
+#include <stdio.h>
+int	main(void)
+{
+
+	printf("%c\n", ft_toupper('z'));
+
 }

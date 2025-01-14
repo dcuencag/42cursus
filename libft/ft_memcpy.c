@@ -1,23 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dancuenc <dancuenc@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/14 21:41:15 by dancuenc          #+#    #+#             */
-/*   Updated: 2025/01/14 21:41:16 by dancuenc         ###   ########.fr       */
+/*   Created: 2025/01/14 21:41:08 by dancuenc          #+#    #+#             */
+/*   Updated: 2025/01/14 21:41:09 by dancuenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	ft_strlen(char *str)
-{
-	int	i;
+#include <string.h>
 
-	i = 0;
-	while (str[i + 1] != '\0')
+void *ft_memcpy(void *dest, const void *sorc, size_t n)
+{
+	unsigned char	*dst;
+	unsigned char	*src;
+	
+	dst = dest;
+	src = sorc;
+	for (size_t i = 0; i < n; i++)
 	{
-		i++;
+		dst[i] = src[i];
 	}
-	return (i);
+	return dest;
 }
