@@ -1,2 +1,3 @@
-# 42cursus
-All my work on 42 Madrid
+## 42cursus
+All my work on 42 Madrid.
+
