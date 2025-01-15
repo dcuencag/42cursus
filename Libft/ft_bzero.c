@@ -14,18 +14,18 @@
 
 void	ft_bzero(void *pointer, int size)
 {
-	char	*ptr;
+	unsigned char	*ptr;
 	int		i;
 
 	ptr = pointer;
 	i = 0;
 	while (i < size)
 	{
-		ptr[i] = 0;
+		ptr[i] = '\0';
 		i++;
 	}
 }
-/* 
+/*
 #include <stdio.h>
 #include <string.h>
 int main(void)
