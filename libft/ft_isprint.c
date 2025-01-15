@@ -6,11 +6,11 @@
 /*   By: dancuenc <dancuenc@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 21:41:05 by dancuenc          #+#    #+#             */
-/*   Updated: 2025/01/14 21:41:06 by dancuenc         ###   ########.fr       */
+/*   Updated: 2025/01/15 12:02:11 by dancuenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isprint(unsigned char c)
+int	ft_isprint(char c)
 {
 	if (c >= 40 && c <= 176)
 		return (1);

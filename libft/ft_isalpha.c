@@ -6,11 +6,11 @@
 /*   By: dancuenc <dancuenc@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 21:40:58 by dancuenc          #+#    #+#             */
-/*   Updated: 2025/01/14 21:40:59 by dancuenc         ###   ########.fr       */
+/*   Updated: 2025/01/15 12:01:51 by dancuenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(unsigned char c)
+int	ft_isalpha(char c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);

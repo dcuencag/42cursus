@@ -6,11 +6,11 @@
 /*   By: dancuenc <dancuenc@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 21:40:55 by dancuenc          #+#    #+#             */
-/*   Updated: 2025/01/14 21:40:56 by dancuenc         ###   ########.fr       */
+/*   Updated: 2025/01/15 12:01:47 by dancuenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalnum(unsigned char c)
+int	ft_isalnum(char c)
 {
 	if (((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		|| c >= '0' && c <= '9')

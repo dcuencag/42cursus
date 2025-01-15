@@ -6,11 +6,11 @@
 /*   By: dancuenc <dancuenc@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 21:41:03 by dancuenc          #+#    #+#             */
-/*   Updated: 2025/01/14 21:41:04 by dancuenc         ###   ########.fr       */
+/*   Updated: 2025/01/15 12:02:08 by dancuenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isdigit(unsigned char c)
+int	ft_isdigit(char c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
