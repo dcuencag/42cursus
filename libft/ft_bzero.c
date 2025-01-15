@@ -6,14 +6,14 @@
 /*   By: dancuenc <dancuenc@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 21:40:40 by dancuenc          #+#    #+#             */
-/*   Updated: 2025/01/14 21:40:41 by dancuenc         ###   ########.fr       */
+/*   Updated: 2025/01/15 12:26:58 by dancuenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 void ft_bzero(void *pointer, size_t size)
 {
-	unsigned char *ptr;
+	char *ptr;
 	
 	ptr = pointer;
 	for (size_t i = 0; i < size; i++)

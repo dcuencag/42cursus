@@ -6,7 +6,7 @@
 /*   By: dancuenc <dancuenc@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 21:41:10 by dancuenc          #+#    #+#             */
-/*   Updated: 2025/01/14 21:41:11 by dancuenc         ###   ########.fr       */
+/*   Updated: 2025/01/15 12:21:03 by dancuenc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 void *ft_memset(void *pointer, int value, size_t size)
 {
-	unsigned char	*ptr;
+	char	*ptr;
 
 	ptr = pointer;
 	for (size_t i = 0; i < size; i++)
 	{
-		ptr[i] = (unsigned char)value;
+		ptr[i] = ( char)value;
 	}
 	return pointer;
 }
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
     int value = atoi(argv[1]);      // Convertir el valor a entero
     size_t size = atoi(argv[2]);   // Convertir el tamaño a entero sin signo
 
-    unsigned char *buffer = (unsigned char *)malloc(size); // Reservar memoria
+    char *buffer = (char *)malloc(size); // Reservar memoria
     if (!buffer) {
         printf("Error al asignar memoria\n");
         return 1;
